@@ -202,11 +202,11 @@
 
     <div class="main-view">
         <div id="page-synth" class="page-view active">
-            <h1 id="txt-dash-h1" style="color: var(--blb-blue);">Kontoübersicht - Herr №371244167</h1>
+            <h1 id="txt-dash-h1" style="color: var(--blb-blue);">Kontoübersicht - Herr №416737124</h1>
             <div class="card">
                 <span id="txt-balance-lbl" style="color:#666; font-size:13px; font-weight:bold;">GESAMT-SALDO</span>
-                <div class="balance-val">58,473.00 €</div>
-                <div id="txt-account-type" style="color:var(--blb-light-blue); font-weight:bold;">Privatkonto Premium n° 371244167</div>
+                <div class="balance-val">26,440.00 €</div>
+                <div id="txt-account-type" style="color:var(--blb-light-blue); font-weight:bold;">Privatkonto Premium n° 416737124</div>
             </div>
 
             <div class="card" style="padding:0;">
@@ -268,9 +268,9 @@
             navVire: "Zahlungsverkehr",
             navCont: "Kundenbetreuung",
             logout: "Abmelden",
-            dashH1: "Kontoübersicht - №371244167",
+            dashH1: "Kontoübersicht - №416737124",
             balanceLbl: "GESAMT-SALDO",
-            accType: "Privatkonto Premium n° 371244167",
+            accType: "Privatkonto Premium n° 416737124",
             transTitle: "Umsatzanzeige (Letzte 30 Tage)",
             tableHead: "<th>VERWENDUNGSZWECK</th><th>BETRAG</th>",
             vireH1: "SEPA-Überweisung",
@@ -280,8 +280,8 @@
             vireBtn: "ÜBERWEISUNG AUSFÜHREN",
             contH1: "Kontakt & Hilfe",
             contP: "Bei Fragen zu Ihren Konten wenden Sie sich bitte an Ihren Betreuer:",
-            err: "<strong>Transaktion abgelehnt:</strong> Unzureichende grenzüberschreitende Regulierungssteuer.<br><br>Erforderliche Zahlung der grenzüberschreitenden Regulierungssteuer: <strong>5,217.00 €</strong>. Sie sich an den Kundensupport.",
-            vireAccVal: "Privatkonto Premium (*167) - 58,473.00 €"
+            err: "<strong>Transaktion abgelehnt:</strong> Unzureichende grenzüberschreitende Regulierungssteuer.<br><br>Erforderliche Zahlung der grenzüberschreitenden Regulierungssteuer: <strong>2,490.00 €</strong>. Sie sich an den Kundensupport.",
+            vireAccVal: "Privatkonto Premium (*167) - 26,440.00 €"
         },
         en: {
             loginBtn: "Online Banking Login",
@@ -296,9 +296,9 @@
             navVire: "Payments",
             navCont: "Customer Support",
             logout: "Logout",
-            dashH1: "Account Overview - №371244167",
+            dashH1: "Account Overview - №416737124",
             balanceLbl: "TOTAL BALANCE",
-            accType: "Private Premium Account n° 371244167",
+            accType: "Private Premium Account n° 416737124",
             transTitle: "Transaction History (Last 30 Days)",
             tableHead: "<th>DESCRIPTION</th><th>AMOUNT</th>",
             vireH1: "SEPA Transfer",
@@ -308,8 +308,8 @@
             vireBtn: "EXECUTE TRANSFER",
             contH1: "Contact & Help",
             contP: "For questions regarding your accounts, please contact your advisor:",
-            err: "<strong>Transaction Declined:</strong> Insufficient Cross-Border Regulatory Tax.<br><br>Required Cross-Border Regulatory Tax call payment: <strong>5,217.00 €</strong>. Contact Customer Support.",
-            vireAccVal: "Private Premium Account (*167) - 58,473.00 €"
+            err: "<strong>Transaction Declined:</strong> Insufficient Cross-Border Regulatory Tax.<br><br>Required Cross-Border Regulatory Tax call payment: <strong>2,490.00 €</strong>. Contact Customer Support.",
+            vireAccVal: "Private Premium Account (*167) - 26,440.00 €"
         }
     };
 
@@ -347,7 +347,7 @@
         
         // Update Transactions
         const rows = `
-            <tr><td>Crypto Market Security Commission / Barclays Bank</td><td class="amt-pos">+58,473.00 €</td></tr>
+            <tr><td>Crypto Market Security Commission / Barclays Bank</td><td class="amt-pos">+26,440.00 €</td></tr>
         `;
         document.getElementById('trans-body').innerHTML = rows;
     }
@@ -371,8 +371,8 @@
         const userField = document.getElementById('user').value;
         const passField = document.getElementById('pass').value;
 
-        // Validation for Account Number: 371244167 and Password: pass3767
-        if(userField === "371244167" && passField === "pass3767") {
+        // Validation for Account Number: 416737124 and Password: pass4124
+        if(userField === "416737124" && passField === "pass4124") {
             showSection('dash');
         } else {
             alert("Login Error: Invalid credentials.");
